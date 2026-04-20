@@ -13,6 +13,7 @@ const AppRouter = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/favourites" element={<Favorites />} />
           <Route path="/stats" element={<MovieStats />} />
 
           {/* Optional but important for CA2 pattern */}
